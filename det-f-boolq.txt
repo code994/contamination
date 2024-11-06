@@ -1,0 +1,8 @@
+#!/bin/bash --login
+#$ -cwd
+
+#$ -l mem1500
+
+#$ -pe smp.pe 8
+
+python det-f-boolq.py
